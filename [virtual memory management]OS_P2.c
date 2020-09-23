@@ -1,3 +1,7 @@
+/*Demand paging system을 가정하고 이를 위한 페이지 교체 기법을 구현하는 코드를 C언어로 작성하였습니다. 
+  page reference string을 사용자에게 입력 받아 MIN, FIFO, LRU, LFU, Working set 기법으로 처리했을 경우 
+  메모리 내부 변화 과정과 page fault 발생 과정을 추적 및 출력하는 프로그램*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
